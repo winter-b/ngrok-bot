@@ -13,4 +13,9 @@ discordClient.on('ready', () => {
             console.log('exec error: ' + error);
         }
     });
+    exec('curl localhost:4040/api/tunnels', function (error, stdout, stderr) {
+        console.log(stdout);
+        var url = stdout.split('"public_url":"')[1].split('"')[0];
+        console.log(url)
+    });
 });
