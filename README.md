@@ -36,3 +36,14 @@ Run:
 sudo systemctl start ngrok-bot.service
 sudo systemctl enable ngrok-bot.service
 ```
+
+Add auth token
+Run:
+```
+sudo nano /var/www/.config/ngrok/ngrok.yml 
+```
+Add:
+```
+version: "2"
+authtoken: XXXXXXXXXXXXXXX_TOKEN_XXXXXXXXXXXXXXXXX
+```
