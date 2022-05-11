@@ -1,4 +1,6 @@
 {
     "Discord_bot_token": "",
-    "Discord_channel_id" : "973742217665601596"
+    "Discord_channel_id" : "973742217665601596",
+    "Url_suffix": "/tt-rss/",
+    "Port": 80
 }
